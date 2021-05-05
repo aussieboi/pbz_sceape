@@ -1,0 +1,22 @@
+{
+  "name": "pbz_scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules --experimental-json-modules --es-module-specifier-resolution=node "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.8.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "node-html-parser": "^1.2.5",
+    "puppeteer": "^2.0.0"
+  }
+}
